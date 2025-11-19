@@ -1,0 +1,29 @@
+name: digital_waqt_azan
+description: Digital Waqt Azan - assistant prepared example
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  audioplayers: ^6.5.1
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.4
+  intl: ^0.18.1
+  http: ^0.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/azan_manual.mp3
+    - assets/images/logo.png
